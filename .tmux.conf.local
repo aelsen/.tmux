@@ -438,5 +438,5 @@ tmux_conf_uninstall_plugins_on_reload=true
 # # /!\ do not remove the previous line
 
 
-# bind -r - split-window -v           # split current window top/bottom
-# bind -r \\ split-window -h          # split current window to left/right
+bind -r - split-window -v           # split current window top/bottom
+bind -r \\ split-window -h           # split current window to left/right

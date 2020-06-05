@@ -271,4 +271,4 @@ unbind -
 # window splitting
 
 bind -r - split-window -v           # split current window top/bottom
-bind -r \ split-window -h           # split current window to left/right
+bind -r \\ split-window -h           # split current window to left/right

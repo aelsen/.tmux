@@ -67,24 +67,43 @@ tmux_conf_24b_colour=auto
 #   - tmux_conf_theme_synchronized
 tmux_conf_theme=enabled
 
+# everforest
+tmux_conf_theme_colour_1="#2D353B"    # dark gray
+tmux_conf_theme_colour_2="#3D484D"    # gray
+tmux_conf_theme_colour_3="#4F585E"    # light gray
+tmux_conf_theme_colour_4="#7FBBB3"    # light blue
+tmux_conf_theme_colour_5="#DBBC7F"    # yellow
+tmux_conf_theme_colour_6="#2D353B"    # dark gray
+tmux_conf_theme_colour_7="#D3C6AA"    # white
+tmux_conf_theme_colour_8="#2D353B"    # dark gray
+tmux_conf_theme_colour_9="#DBBC7F"    # yellow
+tmux_conf_theme_colour_10="#D699B6"   # pink
+tmux_conf_theme_colour_11="#A7C080"   # green
+tmux_conf_theme_colour_12="#4F585E"   # light gray
+tmux_conf_theme_colour_13="#D3C6AA"   # white
+tmux_conf_theme_colour_14="#2D353B"   # dark gray
+tmux_conf_theme_colour_15="#2D353B"   # dark gray
+tmux_conf_theme_colour_16="#E67E80"   # red
+tmux_conf_theme_colour_17="#D3C6AA"   # white
+
 # default theme
-tmux_conf_theme_colour_1="#080808"    # dark gray
-tmux_conf_theme_colour_2="#303030"    # gray
-tmux_conf_theme_colour_3="#8a8a8a"    # light gray
-tmux_conf_theme_colour_4="#00afff"    # light blue
-tmux_conf_theme_colour_5="#ffff00"    # yellow
-tmux_conf_theme_colour_6="#080808"    # dark gray
-tmux_conf_theme_colour_7="#e4e4e4"    # white
-tmux_conf_theme_colour_8="#080808"    # dark gray
-tmux_conf_theme_colour_9="#ffff00"    # yellow
-tmux_conf_theme_colour_10="#ff00af"   # pink
-tmux_conf_theme_colour_11="#5fff00"   # green
-tmux_conf_theme_colour_12="#8a8a8a"   # light gray
-tmux_conf_theme_colour_13="#e4e4e4"   # white
-tmux_conf_theme_colour_14="#080808"   # dark gray
-tmux_conf_theme_colour_15="#080808"   # dark gray
-tmux_conf_theme_colour_16="#d70000"   # red
-tmux_conf_theme_colour_17="#e4e4e4"   # white
+# tmux_conf_theme_colour_2="#080808"    # dark gray
+# tmux_conf_theme_colour_3="#303030"    # gray
+# tmux_conf_theme_colour_4="#8a8a8a"    # light gray
+# tmux_conf_theme_colour_5="#00afff"    # light blue
+# tmux_conf_theme_colour_6="#ffff00"    # yellow
+# tmux_conf_theme_colour_7="#080808"    # dark gray
+# tmux_conf_theme_colour_8="#e4e4e4"    # white
+# tmux_conf_theme_colour_9="#080808"    # dark gray
+# tmux_conf_theme_colour_10="#ffff00"    # yellow
+# tmux_conf_theme_colour_11="#ff00af"   # pink
+# tmux_conf_theme_colour_12="#5fff00"   # green
+# tmux_conf_theme_colour_13="#8a8a8a"   # light gray
+# tmux_conf_theme_colour_14="#e4e4e4"   # white
+# tmux_conf_theme_colour_15="#080808"   # dark gray
+# tmux_conf_theme_colour_16="#080808"   # dark gray
+# tmux_conf_theme_colour_17="#d70000"   # red
+# tmux_conf_theme_colour_18="#e4e4e4"   # white
 
 # default theme (ansi)
 #tmux_conf_theme_colour_1="colour0"
@@ -411,7 +430,6 @@ tmux_conf_uninstall_plugins_on_reload=true
 
 # to enable a plugin, use the 'set -g @plugin' syntax:
 # visit https://github.com/tmux-plugins for available plugins
-set -g @plugin 'tmux-plugins/tmux-cpu'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
 set -g @plugin 'tmux-plugins/tmux-sidebar'
